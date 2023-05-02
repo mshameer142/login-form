@@ -1,0 +1,65 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family:cursive;
+	box-sizing: border-box;
+}
+body{
+	height: 100vh;
+	background-color: #f8f8f8;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: url(nanima1.jpg);
+
+}
+.container{
+	background-color: black;
+	border-radius: 20px;
+	padding: 20px 10px;
+	width: 260px;
+	box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.2),
+	            -2px 2px 20px rgba(0,0,0,0.8);
+
+                              
+
+}
+.container h1{
+	color: white;
+	 letter-spacing: 3px;
+}
+.container hr{
+	height: 10px;
+	width: 85%;
+	 background-color: white;
+	 margin: 20px  30px;
+}
+form{
+	display: flex;
+	flex-direction: column;
+}
+form input{
+	height: 50px;
+	border-radius: 20px;
+	outline: none;
+	border: 5px solid rgb(153, 0, 204);
+	text-align: center;
+	margin-bottom: 20px;
+}
+form input:focus{
+	border: 4px solid limegreen;
+	transition: 0.2s ease-in-out;
+}
+form button {
+	height: 40px;
+	border-radius: 20px;
+	outline: none;
+	border: none;
+	background-color: limegreen;
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 18px;
+	cursor: pointer;
+}
+
